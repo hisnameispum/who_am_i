@@ -12,7 +12,17 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(
-            
+            crossAxisAlignment: CrossAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              CircleAvatar(
+                radius: 50.0,
+                backgroundImage: AssetImage('images/pum.jpg'),
+              ),
+              SizedBox(
+                width: double.infinity,
+              )
+            ],
           ),
         ),
       ),
