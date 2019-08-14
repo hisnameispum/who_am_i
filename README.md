@@ -1,7 +1,7 @@
 # who_am_i
 
-A new Flutter application.
-
+A simple business card built in Flutter!
+ 
 ![screenshot](screenshot/screenshot.png)
 
 ## Getting Started
