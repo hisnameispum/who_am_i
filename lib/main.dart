@@ -41,55 +41,47 @@ class MyApp extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       letterSpacing: 2.5),
                 ),
-                Container(
-                  color: Colors.white,
-                  margin: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.phone,
-                        color: Colors.teal,
-                        size: 20.0,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        '+1 415-608-0084',
-                        style: TextStyle(
-                          color: Colors.teal[900],
-                          fontSize: 20.0,
-                          fontFamily: 'SourceSansPro',
+                Card(
+                    color: Colors.white,
+                    margin: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
+                    child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.phone,
+                          color: Colors.teal,
+                          size: 20.0,
+                        ),
+                        title: Text(
+                          '+1 415-608-0084',
+                          style: TextStyle(
+                            color: Colors.teal[900],
+                            fontSize: 20.0,
+                            fontFamily: 'SourceSansPro',
+                          ),
                         ),
                       ),
-                    ],
-                  ),
-                ),
-                Container(
+                    )),
+                Card(
                   color: Colors.white,
                   margin: EdgeInsets.fromLTRB(20.0, 10.0, 20.0, 0.0),
-                  padding: EdgeInsets.all(10.0),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.mail,
-                        color: Colors.teal,
-                        size: 20.0,
-                      ),
-                      SizedBox(
-                        width: 10.0,
-                      ),
-                      Text(
-                        'SIRASITXP@GMAIL.COM',
-                        style: TextStyle(
-                          color: Colors.teal[900],
-                          fontSize: 20.0,
-                          fontFamily: 'SourceSansPro',
+                  child: Padding(
+                      padding: const EdgeInsets.all(4.0),
+                      child: ListTile(
+                        leading: Icon(
+                          Icons.mail,
+                          color: Colors.teal,
+                          size: 20.0,
                         ),
-                      ),
-                    ],
-                  ),
+                        title: Text(
+                          'SIRASITXP@GMAIL.COM',
+                          style: TextStyle(
+                            color: Colors.teal[900],
+                            fontSize: 20.0,
+                            fontFamily: 'SourceSansPro',
+                          ),
+                        ),
+                      )),
                 ),
               ],
             ),
