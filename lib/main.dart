@@ -11,36 +11,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Container(
-                width: 100.0,
-                color: Colors.red,
-              ),
-              Container(
-                width: 100.0,
-                height: 200.0,
-                child: Column(
-                  children: [
-                    Container(
-                      width: 100.0,
-                      height: 100.0,
-                      color: Colors.yellow,
-                    ),
-                    Container(
-                      width: 100.0,
-                      height: 100.0,
-                      color: Colors.green,
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                width: 100.0,
-                color: Colors.blue,
-              ),
-            ],
+          child: Column(
+            
           ),
         ),
       ),
