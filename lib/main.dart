@@ -21,6 +21,23 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(
                 width: double.infinity,
+              ),
+              Text(
+                'Sirasit T',
+                style: TextStyle(
+                  fontSize: 40.0,
+                  fontFamily: 'Pacifico',
+                  fontWeight: FontWeight.bold,
+                  color: Colors.white,
+                ),
+              ),
+              Text(
+                'Tech Entrepreneur',
+                style: TextStyle(
+                  fontSize: 30.0,
+                  fontFamily: 'SourceSansPro',
+                  color: Colors.white,
+                ),
               )
             ],
           ),
